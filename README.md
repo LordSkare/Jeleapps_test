@@ -79,6 +79,14 @@ php artisan serve
 **Ошибки**:
 - 422 Unprocessable Entity - Невалидные данные
 
+```json
+{
+    "email": [
+        "The email has already been taken."
+    ]
+}
+```
+
 ### 2. Получение профиля пользователя
 **Endpoint**: `GET /api/profile`
 
